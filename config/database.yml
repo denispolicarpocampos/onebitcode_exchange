@@ -7,12 +7,12 @@ default: &default
 
 development:
   <<: *default
-  database: onebitcode_exchance_development
+  database: onebitcode_exchange_development
 
 test:
   <<: *default
-  database: onebitcode_exchance_test
+  database: onebitcode_exchange_test
 
 production:
   <<: *default
-  database: onebitcode_exchance_production
+  database: onebitcode_exchange_production

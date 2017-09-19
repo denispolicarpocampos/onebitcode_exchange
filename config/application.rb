@@ -1,3 +1,5 @@
+require './lib/exchange'
+
 require_relative 'boot'
 
 require 'rails/all'

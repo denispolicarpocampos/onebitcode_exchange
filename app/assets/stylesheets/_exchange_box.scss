@@ -9,6 +9,7 @@
       }
       .card-block{
         padding-top: 10px;
+        padding: 15px;
         .title{
           color: #878d99;
           font-weight: 700;
@@ -17,6 +18,9 @@
           background-color: #5bc0de;
           border-color: #5bc0de;
           border-radius: 0;
+        }
+        .swap-button {
+          display: inline-block;
         }
       }
     }

@@ -7,7 +7,11 @@
       <%= form_tag("/exchange", method: "post", id: "exchange_form") do %>
         <div class="local_currency">
           <div class="form-group">
-            <p class="title">Moeda Local</p>
+            <p class="title">Moeda Local
+              <a href="#" class="btn swap-button">
+                  <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+              </a>
+            </p>
             <%= select_tag "currency", options_for_select(currency_select, "BRL"), class: "form-control", id: "currency" %>
           </div>
           <div class="form-group">
@@ -16,12 +20,11 @@
         </div>
         <div class="destination_currency">
           <div class="form-group">
-            <div class="swap">
+            <p class="title">Moeda Pretendida
               <a href="#" class="btn swap-button">
-                <i class="fa fa-repeat" aria-hidden="true"></i>
+                  <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
               </a>
-            </div>
-            <p class="title">Moeda Pretendida</p>
+            </p>
             <%= select_tag "currency_destination", options_for_select(currency_select, "EUR"), class: "form-control", id: "currency_destination"%>
           </div>
           <div class="form-group">

@@ -20,4 +20,10 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  simulate: "Simulate your conversion"
+  from: "From"
+  to: "To"
+  result: "Result"
+  quantity: "Quantity"
+  title: "Easily convert your currency"
+  subtitle: "to another currency around the world!"

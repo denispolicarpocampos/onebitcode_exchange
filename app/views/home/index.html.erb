@@ -1,3 +1,11 @@
+<div class="container-fluid">
+  <div class="row">
+    <%= link_to "English", root_path(locale: :en) , class: "btn btn-primary"  %>
+    <%= link_to "Portuguese", root_path(locale: :'pt-br'), class: "btn btn-primary" %>
+  </div>
+</div>
+
+
 <div class="container">
   <div class="row">
     <div class="col-lg-3 offset-lg-1 col-md-12 exchange_box">
@@ -12,10 +20,10 @@
     </div>
     <div class="col-lg-7 offset-lg-1 hidden-md-down title-box">
       <div class="row">
-        <h2 class="title">Converta facilmente suas Moedas</h2>
+        <h2 class="title"><%= t('title') %></h2>
       </div>
       <div class="row">
-        <h3 class="title">Para qualquer moeda no Mundo!</h3>
+        <h3 class="title"><%= t('subtitle') %></h3>
       </div>
     </div>
   </div>

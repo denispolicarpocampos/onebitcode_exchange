@@ -1,24 +1,24 @@
-# README
+## About the project:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a simple app that convert one currency in another currency.
 
-Things you may want to cover:
+----
+## Technologies used:
+* Ruby on Rails
+* Docker
+* API consumption [fixer.io](http://fixer.io/)
 
-* Ruby version
+----
 
-* System dependencies
+## Dependencies:
+* Ruby on Rails
+* Docker
 
-* Configuration
+## Getting Started:
 
-* Database creation
+After clone the project you need run these commands to up the application:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* docker-compose build
+* docker-compose run --rm website bundle exec rake db:create
+* docker-compose run --rm website bundle exec rake db:migrate
+* docker-compose up

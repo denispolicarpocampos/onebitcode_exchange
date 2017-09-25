@@ -21,8 +21,8 @@
 
 en:
   simulate: "Simulate your conversion"
-  from: "From"
-  to: "To"
+  local: "Local currency"
+  to: "Desired currency"
   result: "Result"
   quantity: "Quantity"
   title: "Easily convert your currency"

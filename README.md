@@ -13,6 +13,7 @@ This project is a simple app that convert one currency in another currency.
 ## Dependencies:
 * Ruby on Rails
 * Docker
+* Postgres
 
 ## Getting Started:
 

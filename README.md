@@ -3,6 +3,9 @@
 This project is a simple app that convert one currency in another currency.
 
 ![Bootcamp-exchange](https://raw.githubusercontent.com/denispolicarpocampos/onebitcode_exchange/4119126cb5b945c665cda6c3d5e57328082592e7/app.png)
+----
+## Link on Heroku:
+http://exchangemoneyapp.herokuapp.com/
 
 ----
 ## Technologies used:
@@ -11,12 +14,12 @@ This project is a simple app that convert one currency in another currency.
 * API consumption [fixer.io](http://fixer.io/)
 
 ----
-
 ## Dependencies:
 * Ruby on Rails
 * Docker
 * Postgres
 
+----
 ## Getting Started:
 
 After clone the project you need run these commands to up the application:

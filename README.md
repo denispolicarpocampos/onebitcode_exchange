@@ -2,6 +2,8 @@
 
 This project is a simple app that convert one currency in another currency.
 
+![Bootcamp-exchange](https://raw.githubusercontent.com/denispolicarpocampos/onebitcode_exchange/4119126cb5b945c665cda6c3d5e57328082592e7/app.png)
+
 ----
 ## Technologies used:
 * Ruby on Rails

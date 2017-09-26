@@ -1,4 +1,4 @@
-$(document).ready ->
+$(document).on 'turbolinks:load', ->
   $('#quantity').keyup ->
     if $('form').attr('action') == '/exchange'
       $.ajax '/exchange',

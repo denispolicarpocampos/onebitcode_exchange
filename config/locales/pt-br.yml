@@ -1,7 +1,7 @@
 
 'pt-br':
   simulate: "Simule sua conversão"
-  from: "Moeda Local"
+  local: "Moeda Local"
   to: "Moeda Pretendida"
   result: "Resultado"
   quantity: "Quantidade"

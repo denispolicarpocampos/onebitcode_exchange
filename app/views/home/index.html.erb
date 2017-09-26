@@ -1,17 +1,3 @@
-<div class="container-fluid">
-  <div class="row">
-
-    <%= link_to root_path(locale: :en) do %>
-      <%= image_tag("/usaflag.png", size: "25x25")  %>
-    <% end %>
-    <%= link_to root_path(locale: :'pt-br') do %>
-      <%= image_tag("/brasilflag.png", size: "25x25")  %>
-    <% end %>
-
-  </div>
-</div>
-
-
 <div class="container">
   <div class="row">
     <div class="col-lg-3 offset-lg-1 col-md-12 exchange_box">
@@ -26,10 +12,10 @@
     </div>
     <div class="col-lg-7 offset-lg-1 hidden-md-down title-box">
       <div class="row">
-        <h2 class="title"><%= t('title') %></h2>
+        <h2 class="title">Easily convert your currency</h2>
       </div>
       <div class="row">
-        <h3 class="title"><%= t('subtitle') %></h3>
+        <h3 class="title">to another currency around the world!</h3>
       </div>
     </div>
   </div>
